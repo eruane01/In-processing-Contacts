@@ -2,17 +2,57 @@
 <html>
 <head>
     <title>Contact Downloads</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f7fa;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            text-align: center;
+            width: 90%;
+            max-width: 400px;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        a {
+            display: block;
+            background: #007bff;
+            color: white;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: background 0.2s;
+        }
+
+        a:hover {
+            background: #0056b3;
+        }
+    </style>
 </head>
 <body>
-    <h1>Download Contacts</h1>
+    <div class="container">
+        <h1>Download Contacts</h1>
 
-    <p>
-        <a href="Lt-Col-Jethro-Hess.vcf">Download Lt Col Jethro Hess</a>
-    </p>
-
-    <p>
-        <a href="3-OSS-First-Sergeant.vcf">Download 3 OSS First Sergeant</a>
-    </p>
-
+        <a href="Lt-Col-Jethro-Hess.vcf">Lt Col Jethro Hess</a>
+        <a href="3-OSS-First-Sergeant.vcf">3 OSS First Sergeant</a>
+    </div>
 </body>
 </html>
